@@ -1,0 +1,23 @@
+body {
+    background: #743296;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    background: rgba(0, 0, 0, .2);
+    border: none;
+    max-width: 400px;
+}
+
+.todos li {
+    background: #973DA4;
+}
+
+.delete {
+    cursor: pointer;
+}
